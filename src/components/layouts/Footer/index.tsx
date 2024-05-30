@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         {/* copyright */}
         <div className='flex justify-center items-center py-5'>
-          <p>© 2021 PT Cipta Kreatif Berkarya</p>
+          <p>© 2021 PT Cipta aldi  Berkarya</p>
         </div>
       </div>
     </div>
