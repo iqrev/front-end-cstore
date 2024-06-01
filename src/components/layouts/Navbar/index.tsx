@@ -24,11 +24,11 @@ const Navbar = () => {
   const pathname = usePathname();
   console.log(pathname);
   return (
-    <header className=" text-primary border-2 border-transparent border-b-primary ">
+    <header className=" bg-white text-primary border-2 border-transparent border-b-primary sticky top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
-          <Image src="/assets/logo-cakapinstore-vertical.png" alt="logo" width={120} height={72} />
+          <Image src="/assets/logo-cakapindstore-vertical.png" alt="logo" width={120} height={72} />
         </Link>
         {/* desktop nav and login button */}
         <div className="hidden xl:flex items-center gap-8 capitalize">

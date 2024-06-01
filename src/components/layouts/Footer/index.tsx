@@ -14,7 +14,7 @@ const Footer = () => {
             width={100}
             height={100}
           />
-          <div className='ml-10'>
+          <div className='ml-10 '>
             <h2 className='my-10  text-[24px]'>Citra Raya No.11 Blok A8, Mendalo Darat, kec. Jambi Luar Kota, Kabupaten Muaro Jambi, Jambi.</h2>
             <p className=''>(+62)85179861104</p>
           </div>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         {/* copyright */}
         <div className='flex justify-center items-center py-5'>
-          <p>© 2021 PT Cipta aldi  Berkarya</p>
+          <p>© 2021 PT Cipta Kreatif Berkarya</p>
         </div>
       </div>
     </div>

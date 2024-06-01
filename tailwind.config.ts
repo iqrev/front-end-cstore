@@ -24,10 +24,18 @@ const config = {
       primary: "var(--font-jetbrainsMono)",
     },
     fontSize: {
-      sm: ["20px", "400"],
-      base: ["24px", "400"],
-      lg: ["28px", "700"],
-      xl: ["32px", "800"],
+      sm: ["20px", ""],
+      base: ["24px", ""],
+      lg: ["28px", ""],
+      xl: ["32px",""],
+      "3xl": ["36px",""],
+      "2xl": ["21px",""],
+      "4xl": ["50px",""],
+    },
+    borderRadius: {
+      'large': "20px",
+      'full': "9999px",
+      'lg' : "10px",
     },
     extend: {
       colors: {
