@@ -63,10 +63,10 @@ const LoginView = () => {
               </form>
 
               <p className="">
-                Not a member?{' '}
-                <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                  Start a 14 day free trial
-                </a>
+                Belum Punya Akun?
+                <Link href={"/auth/register"}>
+                  <p>Daftar</p>
+                </Link>
               </p>
             </div>
           </div>
